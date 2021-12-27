@@ -3,4 +3,4 @@ project(threadpool4c)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(threadpool4c main.cpp)
+add_executable(threadpool4c main.cpp thread_pool.c thread_pool.h)
